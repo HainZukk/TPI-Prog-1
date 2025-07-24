@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar Enfrentados",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++11",
+        "-o",
+        "juego",
+        "Juego.cpp",
+        "funciones.cpp",
+        "MenuPrincipal.cpp"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

@@ -4,7 +4,6 @@
 #include "funciones.h"
 using namespace std;
 
-const int MAX_DADOS = 12;
 
 int main() {
     string jugadorMax;
@@ -31,6 +30,9 @@ int main() {
             }
 
             case 1: {
+                //Declaracion de Vector con tamaño 12 en local.
+                const int MAX_DADOS = 12;
+
                 cout << "-----" << endl << "JUGAR" << endl << "-----" << endl;
 
                 string jugadorA, jugadorB, jugador1, jugador2;

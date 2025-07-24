@@ -111,10 +111,10 @@ void puntaje(int cant, int objetivo, int acuDado, int contElegidos, int &puntos)
 }
 
 void regresoMenu() {
-    string salir;
-    cout << "Presione cualquier tecla para volver al Menu Principal: ";
-    cin >> salir;
+    cout << "Presione cualquier tecla para volver al Menu Principal..." << endl;
+    system("pause");
 }
+
 
 void creditos() {
     cout << "CREDITOS" << endl << endl;
