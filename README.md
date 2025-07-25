@@ -14,5 +14,3 @@ Este proyecto representa un desafío técnico y creativo, en el que se aplican c
 
 ---
 
-## 📂 Estructura del repositorio
-
